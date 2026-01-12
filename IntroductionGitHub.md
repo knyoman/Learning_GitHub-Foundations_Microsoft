@@ -89,6 +89,57 @@ GitHub Flow adalah alur kerja pengembangan perangkat lunak yang sederhana dan fl
 
 ---
 
+## 🤝 GitHub sebagai Platform Kolaboratif
+
+GitHub mendukung kolaborasi tim melalui berbagai fitur seperti **Repositories**, **Pull Requests**, **Issues**, dan **Discussions** untuk mengelola pekerjaan, komunikasi, dan pengembangan proyek secara terstruktur.
+
+---
+
+## 🐞 GitHub Issues
+
+GitHub Issues digunakan untuk melacak dan mengelola pekerjaan dalam proyek, seperti:
+- Ide  
+- Tugas  
+- Bug  
+- Umpan balik  
+
+### Fungsi Utama Issues
+- Mendokumentasikan pekerjaan yang perlu ditindaklanjuti  
+- Dapat diberi **label**, **assignee**, dan **milestone**  
+- Dapat dibuat dari:
+  - Kode
+  - Komentar
+  - Task list
+  - Repositori  
+
+Issues membantu tim menjaga pekerjaan tetap terorganisir dan mudah dipantau.
+
+---
+
+## 💬 GitHub Discussions
+
+GitHub Discussions digunakan untuk komunikasi yang bersifat terbuka dan tidak langsung terkait dengan perubahan kode, seperti:
+- Tanya jawab (Q&A)  
+- Diskusi umum  
+- Ide dan masukan  
+- Pengumuman komunitas  
+
+### Ciri Utama Discussions
+- Tidak langsung terkait kode  
+- Berbasis kategori (Announcement, Q&A, Ideas, dll.)  
+- Mendukung percakapan komunitas secara terbuka  
+
+---
+
+## 🔗 Hubungan Issues dan Discussions
+
+- **Discussions** → Digunakan untuk percakapan dan pertukaran ide  
+- **Issues** → Digunakan untuk pekerjaan yang perlu dilacak dan diselesaikan  
+- Diskusi dapat **dikonversi menjadi Issue** jika memerlukan tindak lanjut teknis  
+
+Pendekatan ini membantu memisahkan antara diskusi dan pekerjaan nyata secara jelas dan efisien.
+
+--- 
 
 ## 🧭 Catatan
 Repository ini dibuat sebagai bagian dari proses belajar dan latihan 
