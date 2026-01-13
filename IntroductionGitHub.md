@@ -141,6 +141,29 @@ Pendekatan ini membantu memisahkan antara diskusi dan pekerjaan nyata secara jel
 
 --- 
 
+---
+
+## 📌 Ringkasan Aktivitas GitHub
+
+Pada latihan **Introduction to GitHub**, saya telah melakukan beberapa aktivitas berikut:
+
+- Membuat dan mengelola repository GitHub  
+- Membuat branch untuk pengembangan terpisah  
+- Melakukan commit perubahan pada file `README.md`  
+- Membuat Pull Request (PR) dari branch ke `main`  
+- Melakukan merge Pull Request sesuai workflow GitHub  
+- Memahami perbedaan:
+  - Repository pribadi  
+  - Fork  
+  - Open-source workflow  
+
+### 🔗 Repository Latihan
+📌 Praktik GitHub Skills – Introduction to GitHub:  
+👉 https://github.com/knyoman/introduction-to-github.git  
+
+Latihan ini membantu saya memahami alur kerja dasar GitHub yang umum digunakan dalam kolaborasi tim dan pengembangan perangkat lunak modern.
+
+
 ## 🧭 Catatan
 Repository ini dibuat sebagai bagian dari proses belajar dan latihan 
 **GitHub Foundations Certification – Microsoft Learn**.
