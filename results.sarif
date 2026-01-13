@@ -1,0 +1,15 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Dummy Scanner",
+          "informationUri": "https://example.com",
+          "rules": []
+        }
+      },
+      "results": []
+    }
+  ]
+}
