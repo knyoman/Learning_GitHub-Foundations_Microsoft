@@ -191,6 +191,25 @@ Pemindaian kode adalah fitur keamanan GitHub yang menggunakan **CodeQL** untuk m
 - Dipicu oleh *push*, *pull request*, atau jadwal tertentu  
 
 ---
+## 🔐 Pemindaian Kode dengan Alat Pihak Ketiga
+
+- Analisis kode dilakukan di luar GitHub  
+- Hasil pemindaian diunggah ke GitHub dalam format **SARIF (v2.1.0)**  
+- Peringatan tetap ditampilkan di tab **Security**  
+
+### Cara Upload SARIF
+- Code Scanning API  
+- CodeQL CLI  
+- GitHub Actions (`upload-sarif`)  
+
+### Batasan
+- Maksimum 5.000 hasil pemindaian  
+- Ukuran file maksimal 10 MB  
+
+**Intinya:**  
+Scan eksternal + upload SARIF = keamanan tetap terpantau di GitHub  
+
+---
 
 
 ## 🧭 Catatan
