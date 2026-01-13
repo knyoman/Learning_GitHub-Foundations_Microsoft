@@ -163,6 +163,35 @@ Pada latihan **Introduction to GitHub**, saya telah melakukan beberapa aktivitas
 
 Latihan ini membantu saya memahami alur kerja dasar GitHub yang umum digunakan dalam kolaborasi tim dan pengembangan perangkat lunak modern.
 
+---
+
+## 🔐 Pemindaian Kode (Code Scanning)
+
+### Pengertian
+Pemindaian kode adalah fitur keamanan GitHub yang menggunakan **CodeQL** untuk menganalisis kode dan mendeteksi kerentanan keamanan serta kesalahan pengkodean.
+
+---
+
+### Tujuan
+- Menemukan masalah keamanan lebih awal  
+- Mencegah bug dan kerentanan baru  
+- Menampilkan peringatan di tab **Security** repositori  
+
+---
+
+### CodeQL
+- Mesin analisis kode milik GitHub  
+- Memperlakukan kode sebagai data  
+- Mendukung berbagai bahasa pemrograman  
+
+---
+
+### Cara Kerja
+- Berjalan otomatis melalui **GitHub Actions**  
+- Dipicu oleh *push*, *pull request*, atau jadwal tertentu  
+
+---
+
 
 ## 🧭 Catatan
 Repository ini dibuat sebagai bagian dari proses belajar dan latihan 
