@@ -211,6 +211,117 @@ Scan eksternal + upload SARIF = keamanan tetap terpantau di GitHub
 
 ---
 
+## 📊 GitHub Projects
+
+### Pengertian
+
+GitHub Projects adalah alat perencanaan dan pelacakan kerja berbasis tabel atau papan untuk mengelola tugas, **Issues**, dan **Pull Requests** di GitHub.
+
+---
+
+### Cara Membuat Proyek
+
+1. Masuk ke **profil** atau **organisasi**  
+2. Buka tab **Projects**  
+3. Klik **New Project**  
+4. Pilih **Start from scratch** (misalnya tampilan **Table**)  
+
+---
+
+### Pengaturan Proyek
+
+- Atur **nama proyek**  
+- Tambahkan **deskripsi**  
+- Isi **README proyek** untuk konteks dan tujuan  
+
+---
+
+### Menambahkan Issue & Pull Request
+
+- Tempel URL Issue atau Pull Request  
+- Cari menggunakan `#repository`  
+- Tambahkan secara massal dari repositori  
+- Otomatis melalui **Workflow**  
+
+---
+
+### Fitur Penting
+
+- Workflow otomatis (misalnya status: *Todo*)  
+- Sub-issue dari checklist untuk memecah tugas besar  
+
+---
+
+**Intinya:**  
+GitHub Projects membantu tim merencanakan, melacak, dan mengoordinasikan pekerjaan secara terpusat dan fleksibel.
+
+---
+
+## ⚙️ Mengatur Proyek di GitHub
+
+GitHub Projects dapat diatur agar pekerjaan mudah dipantau dan diprioritaskan.
+
+---
+
+### Langkah Utama
+
+**Bidang Prioritas**  
+
+- Buat field *single select* (Mendesak, Tinggi, Sedang, Rendah)  
+- Kelompokkan item berdasarkan prioritas  
+
+**Bidang Iterasi**  
+
+- Tambahkan field *iteration* (Sprint/Fase)  
+- Atur rentang tanggal untuk timeline kerja  
+
+**Tampilan Papan (Board)**  
+
+- Gunakan tampilan **Board** untuk visualisasi status  
+- Contoh kolom: *Todo*, *In Progress*, *Done*  
+
+**Workflow Otomatis**  
+
+- Aktifkan workflow agar item baru otomatis diberi status (mis. *Todo*)  
+
+---
+
+**Intinya:**  
+Field + tampilan + workflow = proyek lebih rapi, terstruktur, dan mudah dikelola.
+
+---
+
+## 📈 Wawasan (Insights) & Otomatisasi Proyek
+
+### Wawasan (Insights)
+
+GitHub Projects menyediakan bagan untuk membantu memahami progres kerja.
+
+- **Bagan saat ini**: Menampilkan kondisi proyek saat ini (jumlah item, status, penugasan)  
+- **Bagan historis**: Menampilkan tren dari waktu ke waktu *(tersedia untuk GitHub Team & Enterprise)*  
+
+---
+
+### Otomatisasi Proyek
+
+Terdapat tiga cara untuk mengotomatiskan proyek di GitHub:
+
+1. **Alur kerja bawaan**  
+   - Mengatur status otomatis (misalnya item baru → *Todo*)
+
+2. **GitHub Actions**  
+   - Otomatisasi lanjutan seperti memberi label, komentar, atau memindahkan item proyek
+
+3. **GraphQL API**  
+   - Otomatisasi kustom tingkat lanjut
+
+---
+
+**Intinya:**  
+Wawasan membantu memantau progres, sedangkan otomatisasi membantu mengurangi pekerjaan manual dalam manajemen proyek.
+
+---
+
 
 ## 🧭 Catatan
 Repository ini dibuat sebagai bagian dari proses belajar dan latihan 
