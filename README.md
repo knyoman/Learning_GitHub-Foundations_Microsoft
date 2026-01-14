@@ -5,6 +5,9 @@
 [![Introduction to Git](./images/introductionToGit.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/HZP4SL58?sharingId=A55A4E4C685DFAA6)
 [![Introduction to GitHub](./images/IntroductionToGitHub.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/468NLFPK?sharingId=A55A4E4C685DFAA6)
 [![Introduction To GitHub Product](./images/IntroductionToGitHubProduct.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/37E4AQYH?sharingId=A55A4E4C685DFAA6)
+[![ConfigureCodeScanningOnGithub.png](./images/ConfigureCodeScanningOnGithub.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/FQD5B3QX?sharingId=A55A4E4C685DFAA6)
+[![IntroductionToGithubCapilot.png](./images/IntroductionToGithubCapilot.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/7BL9W6GZ?sharingId=A55A4E4C685DFAA6)
+
 
 ## 📋 Tentang Repository Ini
 
