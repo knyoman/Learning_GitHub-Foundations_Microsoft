@@ -211,6 +211,39 @@ Scan eksternal + upload SARIF = keamanan tetap terpantau di GitHub
 
 ---
 
+## 💻 Siklus Hidup GitHub Codespaces
+
+### Pengertian
+GitHub Codespaces adalah lingkungan pengembangan berbasis cloud yang dapat dikonfigurasi dan digunakan ulang oleh anggota proyek.
+
+---
+
+### Siklus Hidup Codespace
+**Buat → Gunakan → Hentikan / Mulai ulang → Bangun ulang (opsional) → Hapus**
+
+---
+
+### Pembuatan Codespace
+Codespace dapat dibuat dari:
+- Repositori atau template  
+- Branch  
+- Pull request  
+- Commit tertentu  
+
+---
+
+### Hal Penting
+- Perubahan disimpan di cloud  
+- Perubahan akan hilang jika Codespace dihapus sebelum di-*push*  
+- Timeout default: ±30 menit tidak aktif  
+- Biaya CPU hanya saat Codespace berjalan  
+- Storage tetap dihitung meskipun berhenti  
+- Codespace tidak aktif akan dihapus otomatis (±30 hari)  
+
+---
+
+**Intinya:**  
+Codespaces = *cloud dev environment* yang fleksibel, sementara, dan aman selama perubahan di-*commit* dan di-*push*.
 
 ## 🧭 Catatan
 Repository ini dibuat sebagai bagian dari proses belajar dan latihan 
