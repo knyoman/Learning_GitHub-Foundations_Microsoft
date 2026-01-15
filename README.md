@@ -2,6 +2,10 @@
 
 > Dokumentasi lengkap perjalanan belajar **GitHub Foundations Certification** dari Microsoft Learn
 
+[![GitHubFoundationPart1of2](./images/GitHubFoundationPart1of2.png)](https://learn.microsoft.com/api/achievements/share/id-id/NyomanKusuma-4289/CYVBAKF9?sharingId=A55A4E4C685DFAA6)
+
+---
+
 [![Introduction to Git](./images/introductionToGit.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/HZP4SL58?sharingId=A55A4E4C685DFAA6)
 [![Introduction to GitHub](./images/IntroductionToGitHub.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/468NLFPK?sharingId=A55A4E4C685DFAA6)
 [![IntroductionToGithubCapilot](./images/IntroductionToGithubCapilot.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/7BL9W6GZ?sharingId=A55A4E4C685DFAA6)
@@ -22,6 +26,7 @@ Repository ini adalah panduan komprehensif yang mencakup:
 ## 🎯 Tujuan
 
 Menguasai GitHub sebagai platform untuk:
+
 - Manajemen versi & kontrol kode (Git)
 - Kolaborasi tim yang efektif
 - Pengelolaan proyek modern
