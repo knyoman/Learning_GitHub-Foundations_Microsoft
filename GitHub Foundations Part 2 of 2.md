@@ -117,3 +117,86 @@ Komunikasi yang baik dan Pull Request yang jelas meningkatkan peluang kontribusi
 ### 🔗 Praktek Kontribusi
 👉 <https://gist.github.com/knyoman/d8571bf726513cd3e79645a6738de9eb> >
 
+---
+
+## ✍️ Menulis Commit & Pull Request yang Baik
+
+Kualitas Pull Request (PR) sangat dipengaruhi oleh cara menjelaskan perubahan yang dibuat.
+
+---
+
+### Praktik Utama
+
+**Judul Commit / PR**
+- Gunakan bentuk imperatif & present tense  
+  *(contoh: `Add feature`, bukan `Added feature`)*  
+- Maksimal 50 karakter  
+- Huruf kapital di awal, tanpa tanda titik  
+
+**Deskripsi Pull Request**
+- Jelaskan **apa** dan **mengapa** perubahan dibuat  
+- Bandingkan perilaku sebelum dan sesudah perubahan  
+
+---
+
+### Granularitas & Metadata
+- Kirim perubahan kecil dan terfokus  
+- Tambahkan:
+  - Reviewer / assignee  
+  - Label (Bug, Documentation, Enhancement, dll.)  
+  - Tautan Issue agar PR dapat menutup issue otomatis  
+
+---
+
+### Latihan Praktik
+- Gunakan proyek **First Contributions**  
+- Alur latihan: *fork → clone → commit → pull request*  
+- Ikuti `CONTRIBUTING.md` atau template PR jika tersedia  
+
+---
+
+**Intinya:**  
+Pull Request yang jelas, ringkas, dan terstruktur lebih mudah ditinjau dan lebih cepat digabung.
+
+---
+
+## ✅ Inti Membuat Pull Request (PR) yang Baik
+
+Di GitHub, kualitas PR dinilai dari **kejelasan perubahan** dan **komunikasi yang efektif**.
+
+---
+
+### Praktik Utama
+
+**Judul Commit / PR**
+- Gunakan bentuk imperatif & present tense  
+  *(contoh: `Add feature`, bukan `Added feature`)*  
+- Maksimal 50 karakter  
+- Huruf kapital di awal, tanpa tanda titik  
+
+**Deskripsi Pull Request**
+- Jelaskan **apa** dan **mengapa** perubahan dibuat  
+- Bandingkan kondisi **sebelum vs sesudah**  
+- Buat perubahan kecil dan terfokus agar mudah ditinjau  
+
+---
+
+### Tambahan Penting
+- Tambahkan **reviewer** atau **assignee**  
+- Gunakan **label** (Bug, Documentation, Enhancement, dll.)  
+- Tautkan **issue terkait** agar dapat *auto-close*  
+- Atur notifikasi PR sesuai kebutuhan  
+
+---
+
+### Latihan
+- Gunakan proyek **First Contributions**  
+- Alur praktik: *fork → clone → commit → pull request*  
+
+---
+
+**Intinya:**  
+PR yang jelas, ringkas, dan terstruktur meningkatkan peluang untuk di-*merge*.
+
+---
+

@@ -15,6 +15,10 @@
 [![ManageYouWorkWithGithubProject](./images/ManageYouWorkWithGithubProject.png)](https://learn.microsoft.com/api/achievements/share/id-id/NyomanKusuma-4289/PGHRG5K4?sharingId=A55A4E4C685DFAA6)
 [![CommunicateEffectivelyOnGitHubUsingMarkdown](./images/CommunicateEffectivelyOnGitHubUsingMarkdown.png)](https://learn.microsoft.com/api/achievements/share/id-id/NyomanKusuma-4289/FQD6PG2X?sharingId=A55A4E4C685DFAA6)
 
+---
+
+[![ContributeToanOpen-SourceProjectonGitHub](./images/ContributeToanOpen-SourceProjectonGitHub.png)](https://learn.microsoft.com/api/achievements/share/en-us/NyomanKusuma-4289/HZ4FXFR8?sharingId=A55A4E4C685DFAA6)
+
 ## 📋 Tentang Repository Ini
 
 Repository ini adalah panduan komprehensif yang mencakup:
