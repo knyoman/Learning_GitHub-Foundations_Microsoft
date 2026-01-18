@@ -1,6 +1,6 @@
 # 🚀 GitHub Foundations - Learning Journey
 
-> Dokumentasi lengkap perjalanan belajar **GitHub Foundations Certification** dari Microsoft Learn
+> Dokumentasi lengkap perjalanan belajar saya **GitHub Foundations** dari Microsoft Learn
 
 [![GitHubFoundationPart1of2](./images/GitHubFoundationPart1of2.png)](https://learn.microsoft.com/api/achievements/share/id-id/NyomanKusuma-4289/CYVBAKF9?sharingId=A55A4E4C685DFAA6)
 
