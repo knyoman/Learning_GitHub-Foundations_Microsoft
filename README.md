@@ -38,5 +38,5 @@ Menguasai GitHub sebagai platform untuk:
 - Best practices dalam development workflow
 
 ---
-
+API_KEY=ghp_1234567890abcdefghijklmnopqrstuvwxyz
 **Status:** 🟢 Learning in Progress | **Last Updated:** Jan 2026
