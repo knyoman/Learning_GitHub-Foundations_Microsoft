@@ -1,4 +1,4 @@
-# 🚀 GitHub Foundations - Learning Journey
+# 🚀 GitHub Foundations - Learning Journey🙌
 
 > Dokumentasi lengkap perjalanan belajar saya **GitHub Foundations** dari Microsoft Learn
 
