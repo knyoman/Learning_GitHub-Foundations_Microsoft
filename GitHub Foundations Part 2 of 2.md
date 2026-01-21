@@ -200,3 +200,36 @@ PR yang jelas, ringkas, dan terstruktur meningkatkan peluang untuk di-*merge*.
 
 ---
 
+## 🔐 Pentingnya Keamanan Repositori
+
+Keamanan repositori harus diterapkan sejak awal (*shift left*) untuk mencegah kebocoran data, perubahan tidak sah, dan pelanggaran regulasi.
+
+---
+
+### Fitur Keamanan Utama di GitHub
+Melalui tab **Security**, GitHub menyediakan:
+- **SECURITY.md** → panduan pelaporan celah keamanan  
+- **Dependabot alerts** → deteksi dependensi rentan  
+- **Security Advisories** → diskusi & publikasi kerentanan (CVE)  
+- **Code scanning** → deteksi bug dan celah keamanan  
+- **Secret scanning** → mencegah kebocoran token/kredensial  
+
+---
+
+### Praktik Keamanan Penting
+- Gunakan **.gitignore** untuk mencegah file sensitif ter-*commit*  
+- Hapus data sensitif dengan benar *(anggap data yang pernah di-*commit* sudah bocor)*  
+- Terapkan **branch protection rules**:
+  - Wajib Pull Request  
+  - Wajib review  
+  - Wajib lulus status checks  
+- Gunakan **required reviewers** untuk mencegah *merge* tanpa review  
+- Atur **CODEOWNERS** untuk menentukan penanggung jawab review kode  
+
+---
+
+**Intinya:**  
+Repositori yang aman adalah hasil dari kombinasi proses, kebijakan, dan otomatisasi keamanan yang diterapkan sejak awal dan dijalankan secara konsisten.
+
+---
+
