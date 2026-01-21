@@ -233,3 +233,34 @@ Repositori yang aman adalah hasil dari kombinasi proses, kebijakan, dan otomatis
 
 ---
 
+## 🤖 Keamanan Otomatis di Repositori
+
+Di GitHub, keamanan dapat diautomatisasi untuk mengurangi risiko dan beban kerja manual.
+
+---
+
+### Fitur Utama
+
+- **Dependency Graph**  
+  Melacak seluruh dependensi proyek secara otomatis  
+
+- **Dependabot Alerts**  
+  Mendeteksi dependensi yang memiliki kerentanan keamanan  
+
+- **Dependabot Updates**  
+  Membuat Pull Request otomatis untuk memperbarui dependensi rentan  
+
+- **Code Scanning (CodeQL)**  
+  Menganalisis kode untuk menemukan bug dan celah keamanan  
+
+- **Secret Scanning**  
+  Mendeteksi token, API key, dan kredensial yang bocor  
+
+---
+
+**Intinya:**  
+Otomatisasi keamanan membantu mendeteksi, memperbaiki, dan mencegah risiko keamanan sejak dini tanpa memperlambat proses pengembangan.
+
+---
+
+
