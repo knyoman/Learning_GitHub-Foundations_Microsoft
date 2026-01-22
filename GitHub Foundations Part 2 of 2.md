@@ -263,4 +263,33 @@ Otomatisasi keamanan membantu mendeteksi, memperbaiki, dan mencegah risiko keama
 
 ---
 
+## 🛡️ Exercise – Secure Your Repository’s Supply Chain
+
+### Tujuan Latihan
+Mengamankan *software supply chain* repositori di GitHub menggunakan fitur keamanan dependensi.
+
+---
+
+### Fitur yang Digunakan
+- **Dependency Graph** → memetakan dependensi proyek  
+- **Dependabot Alerts** → mendeteksi dependensi rentan  
+- **Dependency Security Updates** → Pull Request otomatis untuk perbaikan keamanan  
+- **Dependency Version Updates** → menjaga versi dependensi tetap terbaru  
+
+---
+
+### Tips Mengerjakan
+- Baca **README** repositori latihan  
+- Ikuti instruksi **How to start**  
+- Periksa hasil di tab **Actions → Grading workflow**  
+- Jangan mengubah file `.github/workflows/grading.yml`  
+
+---
+
+**Intinya:**  
+Mengamankan dependensi berarti mencegah risiko keamanan sejak sumbernya secara otomatis dan terukur.
+
+---
+
+
 
