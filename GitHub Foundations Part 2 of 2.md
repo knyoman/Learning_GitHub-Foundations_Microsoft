@@ -333,6 +333,46 @@ Administrasi GitHub yang efektif membutuhkan pengelolaan akses bertingkat, sinkr
 
 ---
 
+## 🔑 Opsi Autentikasi GitHub
+
+GitHub menyediakan beberapa metode autentikasi yang aman untuk mengakses repositori dan API.
+
+---
+
+### Metode Autentikasi
+- **Personal Access Token (PAT)**  
+  Pengganti password untuk akses Git dan API  
+
+- **SSH Keys**  
+  Akses aman tanpa memasukkan kredensial berulang  
+
+- **Deploy Keys**  
+  SSH key khusus untuk satu repositori (read-only atau write)  
+
+- **Username & Password**  
+  Tidak lagi didukung untuk Git dan API  
+
+---
+
+### Keamanan Tambahan
+- **Two-Factor Authentication (2FA)**  
+  - Authenticator app, hardware key, atau passkey *(disarankan)*  
+  - Dapat diwajibkan oleh organisasi atau enterprise  
+
+- **SAML SSO**  
+  Login terpusat melalui IdP (misalnya Microsoft Entra ID, Okta)  
+
+- **LDAP (GitHub Enterprise Server)**  
+  Autentikasi melalui direktori internal perusahaan  
+
+---
+
+**Intinya:**  
+GitHub mengutamakan autentikasi berbasis token, SSH, dan SSO dengan 2FA untuk akses yang aman dan terkontrol di tingkat tim, organisasi, hingga enterprise.
+
+---
+
+
 
 
 
