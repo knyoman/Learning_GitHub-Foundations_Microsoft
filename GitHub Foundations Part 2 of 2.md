@@ -291,5 +291,48 @@ Mengamankan dependensi berarti mencegah risiko keamanan sejak sumbernya secara o
 
 ---
 
+## 🛠️ GitHub Administration
+
+### Pengertian
+Administrasi GitHub bertujuan memastikan kolaborasi, akses, dan keamanan berjalan lancar melalui pengelolaan **team**, **organization**, dan **enterprise**.
+
+---
+
+### Level Administrasi
+
+#### 1️⃣ Team Level
+- Mengelola anggota dan izin repositori secara granular  
+- Mendukung *nested teams* dan *team sync* dengan IdP (misalnya Microsoft Entra ID)  
+- Mengatur review Pull Request, diskusi tim, dan notifikasi  
+
+**Best Practices:**
+- Susun tim sesuai struktur organisasi  
+- Buat tim berbasis keahlian  
+- Aktifkan sinkronisasi IdP untuk onboarding/offboarding otomatis  
+
+---
+
+#### 2️⃣ Organization Level
+- Mengelola anggota, tim, dan kolaborator eksternal  
+- Mengatur izin repositori dan keamanan organisasi  
+- Mengelola billing dan kebijakan organisasi  
+
+📌 *Disarankan menggunakan satu organisasi untuk mengurangi kompleksitas.*
+
+---
+
+#### 3️⃣ Enterprise Level
+- Manajemen terpusat lintas organisasi  
+- SSO (SAML), kebijakan keamanan global, billing terpusat  
+- Integrasi GitHub Enterprise Server dengan GitHub.com  
+
+---
+
+**Intinya:**  
+Administrasi GitHub yang efektif membutuhkan pengelolaan akses bertingkat, sinkronisasi identitas, dan kebijakan terpusat untuk kolaborasi yang aman dan efisien.
+
+---
+
+
 
 
