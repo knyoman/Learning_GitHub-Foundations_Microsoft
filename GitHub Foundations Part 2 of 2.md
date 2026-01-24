@@ -372,6 +372,61 @@ GitHub mengutamakan autentikasi berbasis token, SSH, dan SSO dengan 2FA untuk ak
 
 ---
 
+## 🔐 Struktur & Izin di GitHub
+
+Di GitHub, izin dikelola secara bertingkat: **Repository → Team → Organization → Enterprise**.
+
+---
+
+### Izin Repositori (5 Level)
+- **Read** → Melihat & berdiskusi  
+- **Triage** → Mengelola Issue/PR tanpa push  
+- **Write** → Push kode (developer default)  
+- **Maintain** → Mengelola repo tanpa aksi sensitif  
+- **Admin** → Akses penuh (keamanan & hapus repo)
+
+**Prinsip utama:** *Least Privilege* (beri izin serendah yang diperlukan).
+
+---
+
+### Forking
+- **Public** → Selalu bisa di-*fork*  
+- **Private** → Bisa dibatasi/dinonaktifkan  
+- **Internal** → Hanya dalam enterprise yang sama  
+
+---
+
+### Cara Akses Diberikan
+- *Direct collaborator*  
+- *Team membership* (izin diwariskan)  
+- *Organization default permissions*  
+- *Outside collaborator*  
+
+📌 **Izin efektif** = tingkat izin tertinggi dari semua sumber akses.
+
+---
+
+### Teams & Permissions
+- Memudahkan pengelolaan izin massal & terstruktur  
+- **Member** vs **Maintainer** (maintainer mengelola tim & review)  
+- Mendukung *nested teams* (izin berantai)
+
+---
+
+### Monitoring & Audit
+- **Settings → Manage access** (repo)  
+- **Audit log** (organization/enterprise)  
+- **API / GraphQL** untuk audit otomatis  
+- Keamanan tambahan: *branch protection* & *required reviews*
+
+---
+
+**Intinya:**  
+Pengelolaan izin GitHub yang baik bersifat bertingkat, berbasis peran, mudah diaudit, dan aman.
+
+---
+
+
 
 
 
