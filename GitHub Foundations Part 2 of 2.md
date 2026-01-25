@@ -426,6 +426,56 @@ Pengelolaan izin GitHub yang baik bersifat bertingkat, berbasis peran, mudah dia
 
 ---
 
+## 🏢 Managing Enterprise Access, Permissions, and Governance
+
+### Gambaran Umum
+Di GitHub, pengelolaan akses dan izin dilakukan lintas **organization** dan **enterprise** untuk memastikan keamanan, tata kelola, dan skalabilitas.
+
+---
+
+### Izin Tingkat Organisasi
+- **Owner** → Kontrol penuh *(disarankan ≥ 2 orang)*  
+- **Member** → Mengelola repositori dan tim  
+- **Moderator** → Moderasi interaksi publik  
+- **Billing Manager** → Mengelola tagihan  
+- **Security Manager** → Mengelola alert dan pengaturan keamanan  
+- **Outside Collaborator** → Akses terbatas ke repositori tertentu  
+
+➡️ *Default permission* disarankan **Read**, tingkatkan secara selektif sesuai kebutuhan.
+
+---
+
+### Izin Tingkat Enterprise
+- **Owner** → Kebijakan global, organisasi, dan billing  
+- **Member** → Setara dengan member organisasi  
+- **Billing Manager** → Khusus pengelolaan billing  
+- **Guest Collaborator (EMU)** → Akses terbatas  
+
+➡️ Dapat menetapkan *default permission* lintas organisasi (**Read** atau **Write**).
+
+---
+
+### Strategi Struktur Organisasi
+- **Single Organization** → Sederhana dan konsisten, namun kurang fleksibel  
+- **Multiple Organizations** → Lebih terisolasi dan fleksibel, tetapi lebih kompleks  
+
+---
+
+### Prinsip & Praktik Terbaik
+- **Least Privilege** → Beri akses serendah mungkin  
+- **Nested Teams** → Izin berjenjang sesuai struktur organisasi  
+- **AD / IdP Sync** → Onboarding dan offboarding otomatis  
+- **Audit & Automation** → Gunakan audit log, API, dan GitHub Actions  
+- **Scripting yang Baik** → Modular, reusable, logging, dan versioned  
+
+---
+
+**Intinya:**  
+Kelola akses enterprise dengan *default Read*, prinsip *least privilege*, sinkronisasi identitas, dan otomasi agar aman, rapi, dan skalabel.
+
+---
+
+
 
 
 
