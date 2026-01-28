@@ -475,9 +475,48 @@ Kelola akses enterprise dengan *default Read*, prinsip *least privilege*, sinkro
 
 ---
 
+## 🧑‍💼 Manajemen Akses dan Identitas Pengguna
 
+### Inti Konsep
+Di GitHub, autentikasi dan otorisasi memastikan **pengguna yang tepat** memiliki **akses yang tepat** dengan tingkat keamanan maksimal.
 
+---
 
+### Autentikasi Modern
+- **Passkeys & WebAuthn** → Login tanpa password, tahan phishing  
+- **GitHub Mobile (2FA)** → Persetujuan login via notifikasi push  
+- **SAML SSO** → Login terpusat melalui IdP (Entra ID, Okta, dll.)  
+- **Enterprise Managed Users (EMU)** → Identitas sepenuhnya dikelola perusahaan  
 
+---
+
+### Otorisasi & Kontrol Akses
+- **Fine-grained PATs** → Akses terbatas dan dapat kedaluwarsa  
+- **Peran repositori kustom** → Izin sesuai kebutuhan (*least privilege*)  
+- **Kontrol keamanan global**:
+  - Wajib 2FA  
+  - IP allow list  
+  - Blokir OAuth app tidak terverifikasi  
+
+---
+
+### Tata Kelola Organisasi & Enterprise
+- Akses berbasis **tim** dan **peran**  
+- Penegakan kebijakan terpusat (SAML, IdP)  
+- Audit dan pemantauan aktivitas pengguna  
+
+---
+
+### Visibilitas Repositori
+- **Public** → Umum  
+- **Private** → Terbatas  
+- **Internal** → Internal perusahaan  
+
+---
+
+**Intinya:**  
+Identitas terpusat, autentikasi kuat, dan izin granular menjadikan GitHub aman, patuh, dan efisien di skala enterprise.
+
+---
 
 
